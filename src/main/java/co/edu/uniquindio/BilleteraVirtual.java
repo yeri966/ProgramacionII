@@ -50,7 +50,5 @@ public class BilleteraVirtual {
     public List<Transaccion> getTransaccciones() {
         return transaccciones;
     }
-
-
 }
 
