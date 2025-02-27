@@ -18,8 +18,6 @@ public class Transaccion {
         this.categoria = categoria;
         this.origen = origen;
         this.destino = destino;
-
-
     }
 
     public String getId() {
@@ -33,5 +31,15 @@ public class Transaccion {
     public LocalDateTime getFecha() {
         return fecha;
     }
+    public Categoria getCategoria() {
+        return categoria;
+    }
+    public BilleteraVirtual getOrigen() {
+        return origen;
+    }
+    public BilleteraVirtual getDestino() {
+        return destino;
+    }
+
 
 }

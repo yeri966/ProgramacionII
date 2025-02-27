@@ -24,7 +24,24 @@ public class Usuario {
         return identificacion;
     }
 
-    public boolean validarCredenciales(String identificacion,String contrasena){
+    public String getNombre() {
+        return nombre;
+    }
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+    public String getContrasena() {
+        return contrasena;
+    }
+    public boolean getEstado() {
+        return estado;
+    }
+
+    public boolean validarCredenciales(String identificacion, String contrasena){
         return this.identificacion.equals(identificacion) && this.contrasena.equals(contrasena);
     }
 
