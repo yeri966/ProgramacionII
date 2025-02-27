@@ -1,4 +1,6 @@
-package co.edu.uniquindio;//Clase billetera con sus respetivos atributos
+package co.edu.uniquindio;
+
+//Clase billetera con sus respetivos atributos
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
