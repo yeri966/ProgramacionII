@@ -1,3 +1,4 @@
+//Enum de categorias
 package co.edu.uniquindio;
 
 public enum Categoria {
